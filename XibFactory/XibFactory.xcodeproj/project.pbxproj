@@ -13,6 +13,7 @@
 		9D09A45625D0E4DE0033F282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D09A45425D0E4DE0033F282 /* Main.storyboard */; };
 		9D09A45825D0E4DF0033F282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D09A45725D0E4DF0033F282 /* Assets.xcassets */; };
 		9D09A45B25D0E4DF0033F282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D09A45925D0E4DF0033F282 /* LaunchScreen.storyboard */; };
+		9DD01FA925D1114300AB3904 /* ToolBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DD01FA825D1114300AB3904 /* ToolBar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9D09A45725D0E4DF0033F282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D09A45A25D0E4DF0033F282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D09A45C25D0E4DF0033F282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD01FA825D1114300AB3904 /* ToolBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToolBar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				9D09A44E25D0E4DE0033F282 /* AppDelegate.swift */,
 				9D09A45025D0E4DE0033F282 /* SceneDelegate.swift */,
 				9D09A45225D0E4DE0033F282 /* ViewController.swift */,
+				9DD01FA825D1114300AB3904 /* ToolBar.xib */,
 				9D09A45425D0E4DE0033F282 /* Main.storyboard */,
 				9D09A45725D0E4DF0033F282 /* Assets.xcassets */,
 				9D09A45925D0E4DF0033F282 /* LaunchScreen.storyboard */,
@@ -127,6 +130,7 @@
 				9D09A45B25D0E4DF0033F282 /* LaunchScreen.storyboard in Resources */,
 				9D09A45825D0E4DF0033F282 /* Assets.xcassets in Resources */,
 				9D09A45625D0E4DE0033F282 /* Main.storyboard in Resources */,
+				9DD01FA925D1114300AB3904 /* ToolBar.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
