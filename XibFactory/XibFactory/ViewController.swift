@@ -23,7 +23,6 @@ class ViewController: UIViewController {
         
     }
 
-
 }
 
 class ToolBar: UIView {
@@ -47,6 +46,8 @@ class ToolBar: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        // 有几个独立的xib就会被调用几次是个大坑
+        print("\(type(of: self))     awakeFromNib")
         handleEvent()
     }
     
