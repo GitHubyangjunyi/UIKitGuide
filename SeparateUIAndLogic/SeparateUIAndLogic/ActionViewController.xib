@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18121" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18091"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActionViewController" customModule="SeparateUIAndLogic" customModuleProvider="target">
+            <connections>
+                <outlet property="holdBtn" destination="N68-Cd-p6m" id="Hna-ie-w1W"/>
+                <outlet property="view" destination="wbR-eH-tp5" id="dKv-Ns-I0L"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="wbR-eH-tp5" customClass="ActionView" customModule="SeparateUIAndLogic" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N68-Cd-p6m">
+                    <rect key="frame" x="130.5" y="433" width="153" height="30"/>
+                    <state key="normal" title="分离业务逻辑与UI更新"/>
+                    <connections>
+                        <action selector="logicHandle:" destination="-1" eventType="touchUpInside" id="hL7-al-NOa"/>
+                        <action selector="uiUpdate:" destination="wbR-eH-tp5" eventType="touchUpInside" id="GoK-ZJ-xIU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="nNC-HU-Zwh"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="N68-Cd-p6m" firstAttribute="centerX" secondItem="wbR-eH-tp5" secondAttribute="centerX" id="M9g-LW-x5t"/>
+                <constraint firstItem="N68-Cd-p6m" firstAttribute="centerY" secondItem="wbR-eH-tp5" secondAttribute="centerY" id="ere-Hs-BoB"/>
+            </constraints>
+            <connections>
+                <outlet property="holdBtn" destination="N68-Cd-p6m" id="0Wj-NM-KE0"/>
+            </connections>
+            <point key="canvasLocation" x="-57" y="104"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

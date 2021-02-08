@@ -1,7 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:XibFactory/XibFactory.xcodeproj">
-   </FileRef>
+   <Group
+      location = "container:"
+      name = "PageValueDeliver">
+   </Group>
+   <Group
+      location = "container:"
+      name = "AutoLayout">
+   </Group>
+   <Group
+      location = "container:"
+      name = "DesignPattern">
+      <FileRef
+         location = "group:SeparateUIAndLogic/SeparateUIAndLogic.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "UISplitViewController">
+   </Group>
+   <Group
+      location = "container:"
+      name = "UICollectionView">
+   </Group>
+   <Group
+      location = "container:"
+      name = "UITableView">
+   </Group>
+   <Group
+      location = "container:"
+      name = "Xib">
+      <FileRef
+         location = "group:XibFactory/XibFactory.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
