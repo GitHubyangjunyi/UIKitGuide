@@ -3,6 +3,29 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "UIGestureRecognizer">
+      <FileRef
+         location = "group:UIPinchGestureRecognizerOne/UIPinchGestureRecognizerOne.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Storyboard">
+   </Group>
+   <Group
+      location = "container:"
+      name = "CALayer">
+   </Group>
+   <Group
+      location = "container:"
+      name = "CoreAnimation">
+   </Group>
+   <Group
+      location = "container:"
+      name = "UIViewAnimation">
+   </Group>
+   <Group
+      location = "container:"
       name = "UIViewController">
       <FileRef
          location = "group:UIViewControllerWithXib/UIViewControllerWithXib.xcodeproj">

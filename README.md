@@ -1,6 +1,18 @@
 # UIKitGuide
  iOS UIKit导引
 
+## UIGestureRecognizer
+    UIPinchGestureRecognizer 缩放手势初步
+## Storyboard
+
+## CALayer
+
+
+## CoreAnimation
+
+
+## UIViewAnimation
+
 ## UIViewController
     UIViewControllerWithXib
 ## PageValueDeliver
