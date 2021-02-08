@@ -3,6 +3,16 @@
    version = "1.0">
    <Group
       location = "container:"
+      name = "UIViewController">
+      <FileRef
+         location = "group:UIViewControllerWithXib/UIViewControllerWithXib.xcodeproj">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <Group
+      location = "container:"
       name = "PageValueDeliver">
    </Group>
    <Group
