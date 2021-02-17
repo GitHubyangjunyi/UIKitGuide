@@ -46,6 +46,15 @@
       location = "container:"
       name = "DesignPattern">
       <FileRef
+         location = "group:DelegatePatternTop/DelegatePatternTop.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:DelegatePatternBetter/DelegatePatternBetter.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:DelegatePattern/DelegatePattern.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:SeparateUIAndLogic/SeparateUIAndLogic.xcodeproj">
       </FileRef>
    </Group>

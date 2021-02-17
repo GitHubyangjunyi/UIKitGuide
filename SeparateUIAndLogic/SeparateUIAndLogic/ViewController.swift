@@ -84,3 +84,9 @@ class ActionView: UIView {
 // UIView的Custom Class -> ActionView
 // ActionViewController.xib的File's Owner为ActionViewController
 // 连接File's Owner的view到画布上拖入的UIView
+
+// 关于初始化方法
+// 因为UIViewController使用了协议NSCoding必须实现init(coder)
+// 自定义的UIViewcontroller子类要么继承init(coder)要么显示实现并标记为required
+// 因为实现了初始化器所以丧失了初始化器的继承所以必须实现init(doder)并将其标记为required
+// 可以让Xcode插入崩溃实现或者实现一个最小的有意义的实现super.init(coder: coder)
